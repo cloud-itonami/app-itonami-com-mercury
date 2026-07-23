@@ -1,0 +1,13 @@
+.env
+.env.*
+secrets/
+exports/
+statements/
+*.pdf
+*.csv
+*.ofx
+*.qfx
+*secret*
+*credential*
+*account-number*
+*routing-number*
