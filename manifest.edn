@@ -1,0 +1,12 @@
+{:package/name "com-mercury"
+ :package/kind :reverse-domain-adapter
+ :provider/domain "mercury.com"
+ :classifications
+ {:isic ["6419"]
+  :isco ["1346" "3312"]}
+ :integrates
+ ["kotoba-lang/com-stripe"
+  "cloud-itonami/cloud-itonami-isic-6419"]
+ :security
+ {:secrets-in-git false
+  :human-submission-required true}}

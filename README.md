@@ -1,11 +1,13 @@
-# Mercury bank integration
+# Mercury adapter
 
-Reusable, secret-free contracts for migrating an application's billing from a
-predecessor Stripe seller account to a US company Stripe account with a Mercury
-payout account.
+Reverse-domain home for Mercury-facing contracts, security boundaries, and
+secret-free integration guidance.
 
 No browser credentials, Stripe keys, Mercury credentials, account/routing
 numbers, statements, or identity documents belong in this repository.
 
-See [migration.md](docs/migration.md).
-Secret-free Stripe and Mercury banking integration and reconciliation tooling
+The provider-neutral monetary-intermediation workflow belongs in
+`cloud-itonami/cloud-itonami-isic-6419`; Stripe and Atlas contracts belong in
+`kotoba-lang/com-stripe`.
+
+See [migration.md](docs/migration.md) and [security.md](docs/security.md).
